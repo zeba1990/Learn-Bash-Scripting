@@ -1,0 +1,13 @@
+#!/bin/sh
+read N
+x=0
+SUM=0
+while [ $x -lt $N ]
+do
+    read a;
+    let "SUM+=$a";
+    #echo "Hi"
+    (( x++ ))
+done
+SUM=$(echo $SUM/$N | bc -l)
+printf '%0.3f\n' "$SUM" 
