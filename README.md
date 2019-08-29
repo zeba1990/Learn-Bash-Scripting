@@ -1,2 +1,2 @@
-# Test_repo
+# Bash_Practice
 Learning Bash
