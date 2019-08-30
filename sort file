@@ -1,0 +1,5 @@
+#Rearrange the rows of the table in descending order of the values for the average temperature in January 
+#(i.e, the mean temperature value provided in the second column).
+
+#!/bin/sh
+sort -t$'\t' -k2 -nr
