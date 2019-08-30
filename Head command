@@ -1,0 +1,7 @@
+#Display the first 20 lines of an input file.
+
+#!/bin/sh
+head -n20 | while read line
+do
+echo $line
+done
