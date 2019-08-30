@@ -2,3 +2,10 @@
 
 #!/bin/sh
 tr -d 'a-z' 
+
+<<COMMENT
+another way to do this
+
+tr -d [:lower:]
+
+COMMENT
