@@ -1,0 +1,7 @@
+#Replace all sequences of multiple spaces with just one space.
+
+#!/bin/sh
+tr -s " "
+
+# OR TRY
+# tr -s [:space:] ' ' 
