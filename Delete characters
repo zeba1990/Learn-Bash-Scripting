@@ -1,4 +1,4 @@
 #Delete all the lowercase characters in the given block of text.
 
 #!/bin/sh
-tr 'a-z' ' '
+tr -d 'a-z' 
