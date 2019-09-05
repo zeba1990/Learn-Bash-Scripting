@@ -1,0 +1,7 @@
+# Replace the newlines in the input file with semicolons as demonstrated in the sample.
+
+#!/bin/sh
+paste -s -d ';'
+
+# OR paste -s | tr '/n' ';'
+# OR tr '\n' ';' | head -c -1
